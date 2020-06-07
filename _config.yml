@@ -1,8 +1,2 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 title: wimmelsoft.com
-
-social-network-links:
-  email: "info@wiltenburgit.nl"
-  github: wimmelstein
-  twitter: wimmelstein
-  rss: true
