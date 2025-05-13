@@ -1,2 +1,5 @@
 theme: jekyll-theme-slate
-title: wimmelsoft.com
+title: Wiltenburg IT
+description: Crafting Code. Coaching Teams. Creating Change.
+baseurl: ""
+url: "https://wiltenburgit.github.io"

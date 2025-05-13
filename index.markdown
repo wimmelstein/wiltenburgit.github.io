@@ -34,7 +34,7 @@ Deep experience with government digital transitions, WOZ migrations, and inter-m
 
 With over 35 years in the field, Wim combines technical excellence with a deep human focus. As a part-time lecturer and full-time thinker, he believes:
 
-> “Technology is about people. Code is just how we listen.”
+> "Technology is about people. Code is just how we listen."
 
 ---
 
@@ -42,10 +42,21 @@ With over 35 years in the field, Wim combines technical excellence with a deep h
 
 Want to work together or ask a question? Drop us a line.
 
-!form: Contact Us  
-*name*  
-*email*  
-*message*
+<form action="https://formspree.io/f/your-form-id" method="POST">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
 
 ---
 
