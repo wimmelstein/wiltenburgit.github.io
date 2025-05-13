@@ -45,15 +45,15 @@ Want to work together or ask a question? Drop us a line.
 <form action="https://formspree.io/f/your-form-id" method="POST">
   <div class="form-group">
     <label for="name">Name</label>
-    <input type="text" name="name" id="name" required>
+    <input type="text" name="name" id="name" placeholder="Your name" required>
   </div>
   <div class="form-group">
     <label for="email">Email</label>
-    <input type="email" name="email" id="email" required>
+    <input type="email" name="email" id="email" placeholder="your.email@example.com" required>
   </div>
   <div class="form-group">
     <label for="message">Message</label>
-    <textarea name="message" id="message" required></textarea>
+    <textarea name="message" id="message" placeholder="How can we help you?" required></textarea>
   </div>
   <button type="submit">Send Message</button>
 </form>
